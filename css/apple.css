@@ -1,0 +1,97 @@
+/* Basic Reset & Body */
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #fff;
+    color: #1d1d1f;
+    font-size: 17px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Global Navigation */
+.global-nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    padding: 0 22px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.global-nav nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.global-nav nav a {
+    color: #f5f5f7;
+    font-size: 12px;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.global-nav nav a:hover {
+    opacity: 1;
+    text-decoration: none;
+}
+
+/* Hero Sections */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    color: #1d1d1f;
+}
+
+.hero h1 {
+    font-size: 56px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 28px;
+    margin: 0.5em 0;
+}
+
+.hero .links {
+    margin-top: 1.5em;
+}
+
+.hero .links a {
+    margin: 0 10px;
+    font-size: 21px;
+}
+
+/* Specific Hero Backgrounds (using colors as placeholders for images) */
+.iphone-15-pro {
+    background-color: #f5f5f7; /* Light gray, similar to the image */
+    color: #1d1d1f; /* Dark text */
+}
+
+.iphone-15 {
+    background-color: #000; /* Black background */
+    color: #f5f5f7; /* White text */
+}
+
+.iphone-15 h1,
+.iphone-15 p {
+    color: #f5f5f7;
+}
